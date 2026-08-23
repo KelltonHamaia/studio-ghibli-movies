@@ -27,16 +27,16 @@ const { isMobile } = useIsMobile()
       </div>
     </SheetTrigger>
     <SheetContent
-      class="min-w-lg"
+      class=""
       :side="isMobile ? 'bottom' : 'right'"
     >
-      <SheetHeader class="space-y-4 *:p-4">
+      <SheetHeader class="space-y-2 *:p-4">
         <SheetTitle class="text-2xl">
           {{ movie.title }} {{ `(${movie.original_title_romanised})` }}
         </SheetTitle>
         <SheetDescription class="space-y-2">
           <img
-            class="rounded object-cover"
+            class="rounded object-cover w-full"
             :src="movie.movie_banner"
             :alt="`A image from the movie ${movie.title}`"
           />
