@@ -30,7 +30,7 @@ const { isMobile } = useIsMobile()
       class="min-w-lg"
       :side="isMobile ? 'bottom' : 'right'"
     >
-      <SheetHeader class="space-y-4">
+      <SheetHeader class="space-y-4 *:p-4">
         <SheetTitle class="text-2xl">
           {{ movie.title }} {{ `(${movie.original_title_romanised})` }}
         </SheetTitle>
