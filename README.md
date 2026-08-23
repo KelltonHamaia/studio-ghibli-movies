@@ -1,5 +1,23 @@
-# Vue 3 + TypeScript + Vite
+# Studio ghibli movies!
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este projeto é uma forma de consumir a api não oficial do studio ghibli, onde nela podemos retornar as informações dos filmes (leia-se obras primas) do grande Hayao Miyazaki. As tecnologias utilizadas foram Vue 3, Tailwindcss + Shadcn/vue, axios e tanstack-query (tanstack-vue). O objetivo deste pequeno projeto era de se familiarizar com a ferramenta tanstack-vue.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Para rodar esse projeto localmente, clone-o com o comando:
+
+```
+git clone https://github.com/KelltonHamaia/studio-ghibli-movies
+```
+
+Entre no diretório do projeto, e instale as dependências com:
+
+```
+npm install
+```
+
+Por fim, execute:
+
+```
+npm run dev
+```
+
+E o projeto deverá estar acessível na porta 3000.
